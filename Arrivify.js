@@ -66,7 +66,7 @@ app.post('/api/v1/notification/send', function (req, res) {
 	}
 });
 
-app.listen(8080, function () {
+app.listen(8002, function () {
   console.log('Listening on port 8080!');
 });
 
